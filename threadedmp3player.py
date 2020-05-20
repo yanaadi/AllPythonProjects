@@ -118,7 +118,7 @@ class player:
             
         t.start()
         
-        print('starting')
+        
                     
             
     def msg_error(self):
