@@ -26,7 +26,7 @@ while running:
     
     print('Checking if lesser than current price')
     
-    if int(cur_price1)<int(cur_price):
+    if int(cur_price1)<cur_price:
         
         print('There seems to be a drop in price.')
         
