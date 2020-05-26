@@ -8,13 +8,7 @@ import requests,webbrowser
 
 from bs4 import BeautifulSoup
 
-a = requests.get('https://www.mysmartprice.com/mobile/apple-iphone-xir-msp15688')
-        
-parse = BeautifulSoup(a.content,'html.parser')
-
-get_price = parse.find('span',class_="prdct-dtl__prc-val").text
-
-cur_price = ''.join([i for i in get_price if i.isdigit()])
+cur_price = 64890
 
 running = True
 
